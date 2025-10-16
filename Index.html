@@ -1,0 +1,292 @@
+<html>
+<title>VOMWE SECURITY LIMITED</title>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+body{
+    font-family: Arial ,sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+header{
+    background-color: #00264d;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.logo-container{
+    text-align: center;
+    margin: 20px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Active link styling */
+nav ul li a.active {
+  color: white;
+  background-color: #007bff;
+  border-radius: 4px;
+}
+
+.hero {
+background:url('v1.png') center/cover no-repeat;
+ color: rgb(96, 96, 177);
+ text-align: center;
+ padding: 100px 20px;
+}
+.hero h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.hero button{
+    padding: 10px 20px;
+    background-color: #00a2ff;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero button:hover{
+    background-color: #e6b000;
+}
+section{
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.Services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.Service{
+    width: 250px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+.why-choose-us h2{
+    text-align: left;
+}    
+.why-choose-us ul{
+    list-style-type:disc;
+    list-style-position: inside;
+    padding-left: 10px;
+    text-align: left;
+    
+}
+footer{
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px; 
+}
+.form-section {
+  text-align: left;
+  margin: 40px auto;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-section input {
+  width: 90%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-section button {
+  padding: 10px 20px;
+  background-color: #00264d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #004080;
+}
+ </style>
+ </title>
+    <body>
+        <header> 
+            <div class="header"> 
+            <h1>VOMWE SECURITY LIMITED</h1>
+            </div>
+
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="About us.html">About</a>
+        <a href="Services.html">Services</a>
+        <a href="contact.html">contact</a>
+        <a href="Login.html">Login</a>
+        </nav>
+       </div>
+       </header>
+       <div class="logo-container">
+            <img src="logo1.PNG" alt="VOMWE SECURITY Logo"
+            class="logo"> 
+            </div>
+       <div class="hero">
+        <h1>Your safety,Our priority</h1>
+        <p>Professional services you can trust.</p>
+        <button>Get started</button>
+        </div>
+        <section>
+       
+        <div id="successMessage"
+        class="success-message" style="display:none;">
+            Message sent Successfully we'll get back to you soon.
+            </div>
+        </section>
+       
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="Services.html">Services</a>
+      <a href="contact.html">contact</a>
+      <a href="Login.html">Login</a>
+    </nav>
+</header>
+<section>
+  <section id="contact">
+    <h2>contact us</h2>
+    <form action="https://formspree.io/f/xovkyrag" method="POST">
+      
+      <label>Full Name:</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label>Email:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>Phone:</label><br>
+      <input type="text" name="phone" required><br><br>
+
+      <label>Password:</label><br>
+      <input type="password" name="password" required><br><br>
+
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="Login.html">Login here</a></p>
+  </section>
+  <section>      
+ <h2>Our services</h2> 
+ <div class="Services">
+    <div class="Service">
+        <h3>Security Guarding</h3>
+        <P>Trained guards for homes,offices and events</P>  
+        </div>
+        <div class="Service">
+            <h3>CCTV Installation</h3>
+            <p>Proffessional setup and maimtance of surveillance systems.</p>
+            </div>
+         <div class="Service"> 
+            <h3>Alarm Responses</h3>
+            <p>24/7 quick response for emergency alarms</p>
+            </div>
+            <div class="Service">  
+              <h3>Patrol services</h3>
+              <p>Regular area patrols for maximum safety.</p>
+              </div>
+              </div>
+              </section>
+
+              <section class="Services-photo">
+                <img src="V3.png" alt="The security team">
+                </section>
+
+                <section class="why-choose-us">
+                <h2>Why Choose Us</h2>
+                <ul>
+                    <li>Experienced and licensed security personnel</li>
+                    <li>24/7 customer support and emergency response</li>
+                    <li>Affordable rates without compromising quality</li>
+                    <li>Trusted by top organisations and homeowners</li>
+                    </ul>
+                    </section>
+                    <section>
+                <h2>How to find us:</h2>
+                <p> 0708-987-746 or 0111-997-393</p>
+                <p>P.O.Box 595-00200 Nairobi</p>
+                <p>vomwegroup@gmail.com</p>
+                </section>
+                
+                <footer>
+                    <p>&copy;2025 VOMWE SECURITY LIMITED.All rights reserved.</p>
+                    <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                </footer>
+                </body>
+                <script>
+                    window.onload=function() {
+                        alert("Welcome to VOMWE SECURITY LIMITED!");
+                    };
+                   const quoteBtn = 
+                   document.querySelector("buttton");
+                   qouteBtn.addEventListener("click",function(){
+                     alert("Thankyou for your interest!We'll contact you soon");
+                   });
+                   </script>
+
+                    
+                </html>
+
+
+
+
+    
+    
